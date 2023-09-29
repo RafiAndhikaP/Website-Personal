@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: o;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+}
+
+.navbar{
+    background: #1A0B2E;
+    height: 100px;
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0  4px 0 rgba(1, 1, 1, 0.2);
+}
+
+.nav-menu {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 27px;
+}
+
+
+
+.hero-container{
+    height: 900px;
+    background-color:#11071F;
+    padding: 0 5%;
+}
+
+@keyframes tampilkanAnimasi {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.bg-contact img {
+    transform: scale(1);
+    position: relative;
+    top: -850px;
+    left: 280px;
+    transition: opacity 1s, transform 1s;
+    animation: tampilkanAnimasi 1s ease-out forwards;
+}
+
+.email-saya {
+    position: relative;
+    top: -850px;
+    left: 280px;
+    transition: opacity 1s, transform 1s;
+    animation: tampilkanAnimasi 1s ease-out forwards;
+}
+
+.wa-saya {
+    position: relative;
+    top: -930px;
+    left: 280px;
+    transition: opacity 1s, transform 1s;
+    animation: tampilkanAnimasi 1s ease-out forwards;
+}
+
+
+
+
+
+
+  

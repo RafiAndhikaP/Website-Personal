@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: o;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+}
+
+.navbar{
+    background: #1A0B2E;
+    height: 100px;
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0  4px 0 rgba(1, 1, 1, 0.2);
+}
+
+.nav-menu {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 27px;
+}
+
+
+
+.hero-container{
+    height: 900px;
+    background-color:#11071F;
+    padding: 0 5%;
+}
+
+@keyframes tampilkanAnimasi {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+.bg-logo img {
+    transform: scale(0.8);
+    position: relative;
+    top: -900px; /* Posisi vertikal (ke bawah) */
+    left: 330px; /* Posisi horizontal (ke kanan) */
+    transition: opacity 1s, transform 1s;
+    animation: tampilkanAnimasi 1s ease-out forwards;
+}
+
+.landing-container img {
+    transform: scale(0.8);
+    position: relative;
+    top: -1250px; /* Posisi vertikal (ke atas) */
+    left: 390px; /* Posisi horizontal (ke kanan) */
+    transition: opacity 1s, transform 1s;
+    animation: tampilkanAnimasi 1s ease-out forwards;
+}
+
+.hallo-nama-saya{
+    transform: scale(1.3);
+    position: relative;
+    top: -310px;
+    left: 280px;
+    transition: opacity 1s, transform 1s;
+    animation: tampilkanAnimasi 1s ease-out forwards;
+}
+
+.arrow-panah{
+    position: relative;
+    top: -350px;
+    left: 170px;
+    transition: opacity 1s, transform 1s;
+    animation: tampilkanAnimasi 1s ease-out forwards;
+}
+
+.freelance{
+    position: relative;
+    top: -370px;
+    left: 230px;
+    transition: opacity 1s, transform 1s;
+    animation: tampilkanAnimasi 1s ease-out forwards;
+}
+
+.saya-seorang{
+    position: relative;
+    top: -350px;
+    left: -20px;
+    transition: opacity 1s, transform 1s;
+    animation: tampilkanAnimasi 1s ease-out forwards;
+}
+
+
+
+
+
+  
